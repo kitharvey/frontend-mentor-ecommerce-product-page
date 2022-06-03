@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@marko/build": "^4.2.5",
+    "@marko/serve": "^4.2.5",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "marko": "^5.21.2"
+  },
+  "scripts": {
+    "build": "marko-build ./src/pages",
+    "dev": "marko-serve ./src/pages",
+    "start": "NODE_ENV=production node ./build/index.js"
+  }
+}
